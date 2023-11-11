@@ -1,4 +1,3 @@
-import React from 'react';
 import watch from "../assets/pngwing.com (1).png"
 
 const Hero = () => {
