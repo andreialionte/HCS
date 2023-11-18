@@ -8,13 +8,13 @@ import design from "../assets/istockphoto-1060565612-612x612-removebg-preview.pn
 
 function Purpose() {
   return (
-    <div className="fontt ml-8 flex flex-col text-left mt-[-20rem] mb-[10rem] ">
+    <div className="fontt ml-8 flex flex-col text-left mt-[-20rem] mb-[10rem] items-start ">
       <img src={info} alt="info" className="h-[30rem] w-[30rem] relative left-[82rem] top-[35rem]"/>
-      <img src={photo2} alt="photo2" className="relative h-[10rem] w-[10rem] max-md:left-[13rem] max-md:top-[85rem] md:hidden" />
-      <img src={unnamed} alt="photo2" className="relative h-[19rem] w-[10rem] max-md:left-[13rem] max-md:top-[92rem] md:hidden" />
-      <img src={phone} alt="phone2" className="relative h-[8rem] w-[12rem] max-md:left-[11.5rem] max-md:top-[105.5rem] md:hidden" />
-      <img src={connect} alt="phone2" className="relative h-[9rem] w-[8rem] max-md:left-[13.5rem] max-md:top-[116.5rem] md:hidden" />
-      <img src={design} alt="phone2" className="relative h-[9rem] w-[8rem] max-md:left-[14.5rem] max-md:top-[131rem] md:hidden" />
+      <img src={photo2} alt="photo2" className="relative h-[10rem] w-[10rem] max-md:left-[14rem] max-md:top-[85rem] md:hidden" />
+      <img src={unnamed} alt="photo2" className="relative h-[19rem] w-[10rem] max-md:left-[14rem] max-md:top-[92rem] md:hidden" />
+      <img src={phone} alt="phone2" className="relative h-[8rem] w-[12rem] max-md:left-[12rem] max-md:top-[105.5rem] md:hidden" />
+      <img src={connect} alt="phone2" className="relative h-[9rem] w-[8rem] max-md:left-[14.2rem] max-md:top-[116.5rem] md:hidden" />
+      <img src={design} alt="phone2" className="relative h-[9rem] w-[8rem] max-md:left-[14.7rem] max-md:top-[131rem] md:hidden" />
       <h1 className="text-5xl font-medium text-white">Caring<span className="text-gradient from-purple-500 to-blue-500 bg-gradient-to-bl bg-clip-text text-transparent animate-gradient">Zen</span></h1>
       <p className="text-red-600 text-2xl uppercase">Purpose</p>
       <p className="mr-[50vw] text-white font-meidum text-left text-[1.2rem] mb-3 max-md:mr-[30vw]">CaringZen Watch is more than a watch, it's a dedicated companion designed with a singular focus - enhancing the safety and well-being of the elderly in foster care, kids, and those under hospital care. <br /> Our mission is to bridge the gap between caregivers, hospital assistants, and their loved ones, fostering a sense of security and connectedness.</p>
