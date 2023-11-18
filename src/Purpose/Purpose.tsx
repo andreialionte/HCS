@@ -8,7 +8,7 @@ import design from "../assets/istockphoto-1060565612-612x612-removebg-preview.pn
 
 function Purpose() {
   return (
-    <div className="fontt ml-8 flex flex-col text-left mt-[-20rem] mb-[10rem] items-start ">
+    <div className="fontt ml-8 flex flex-col text-left mt-[-20rem] max-md:mt-[-70rem] mb-[10rem] items-start ">
       <img src={info} alt="info" className="h-[30rem] w-[30rem] relative left-[82rem] top-[35rem]"/>
       <img src={photo2} alt="photo2" className="relative h-[10rem] w-[10rem] max-md:left-[14rem] max-md:top-[85rem] md:hidden" />
       <img src={unnamed} alt="photo2" className="relative h-[19rem] w-[10rem] max-md:left-[14rem] max-md:top-[92rem] md:hidden" />
