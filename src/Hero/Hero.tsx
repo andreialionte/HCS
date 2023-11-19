@@ -3,9 +3,9 @@ import { useState } from "react";
 import Purpose from "../Purpose/Purpose";
 
 const Hero = () => {
-  const [selectLanguage, setSelectLangauge] = useState("English");
+  const [selectLanguage, setSelectLangauge] = useState<string>("English");
 
-  const handlerSelectedLangauge = (event : any) => {
+  const handlerSelectedLangauge = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectLangauge(event.target.value);
   };
 

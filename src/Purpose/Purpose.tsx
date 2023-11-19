@@ -6,7 +6,11 @@ import phone from "../assets/difference-between-push-notifications-and-sms-notif
 import unnamed from "../assets/unnamed-removebg-preview.png"
 import design from "../assets/istockphoto-1060565612-612x612-removebg-preview.png";
 
-function Purpose(props) {
+interface PurposeProps {
+  selectLanguage: string;
+}
+
+function Purpose(props: PurposeProps) {
   return (
     <div className="fontt ml-8 flex flex-col text-left mt-[-20rem] max-md:mt-[-70rem] mb-[10rem] items-start">
       <img src={info} alt="info" className="h-[30rem] w-[30rem] relative left-[82rem] top-[35rem]"/>
